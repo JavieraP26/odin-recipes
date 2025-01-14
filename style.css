@@ -1,0 +1,105 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9f9; /* Fondo suave */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #d6aba7; /* Color cálido */
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Título principal */
+h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+}
+
+/* Sección principal */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+ul li {
+    margin: 0.8rem 0;
+}
+
+ul li a {
+    color: #493991; /* Color de enlace */
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #090031; /* Hover color */
+}
+
+/* Imagen */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Texto adicional */
+p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #000000;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: #d6aba7;
+    color: white;
+    padding: 1.2rem 0;
+    font-size: 1rem;
+    margin-top: 2rem;
+    letter-spacing: 0.5px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    ul li a {
+        font-size: 1rem;
+    }
+}
